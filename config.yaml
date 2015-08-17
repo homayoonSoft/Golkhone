@@ -1,1 +1,10 @@
-DataBase: 2
+dbInfo:
+    name: "RGI_db"
+    user: "root"
+    pass: "pass"
+    addr: "local"
+tables:
+    table1:
+        name : "user"
+        clomns :
+            id : "varchar"

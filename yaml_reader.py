@@ -14,6 +14,6 @@ def ymal_dump(filepath, data):
 if __name__ == "__main__":
 	filepath = "config.yaml"
 	data = yaml_loader(filepath)
-	items = data.get("items")
-	for item_name, item_value in items.items():
+	dbInfo = data.get("dbInfo")
+	for item_name, item_value in dbInfo.items():
 		print (item_name, item_value)
