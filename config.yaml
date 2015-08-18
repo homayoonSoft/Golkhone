@@ -1,8 +1,9 @@
 dbInfo:
-    name: "RGI_db"
-    user: "root"
-    pass: "pass"
-    addr: "local"
+    'database': 'RGI_db'
+    'user': 'root'
+    'password': 'pass'
+    'host' : '127.0.0.1'
+    'raise_on_warnings' : True
 tables:
     table1:
         name : "user"
